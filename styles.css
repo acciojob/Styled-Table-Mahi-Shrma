@@ -1,1 +1,26 @@
 /* your code */
+.table1{
+	width:85%;
+	height:200px;
+	border:1px solid #dddddd;
+	border-radius:20px;
+	border-shadow:10px;
+
+	overflow:hidden;
+}
+tbody tr:nth-child(even){
+	background-color:lightgrey;
+}
+td,th{
+	padding:12px 15px;
+}
+tbody tr{
+	border-bottom:1px solid #dddddd;
+}
+thead tr{
+	color:white;
+	background-color:darkblue;
+	text-align:left;
+	border-radius:10px;
+	font-weight:bold;
+}
